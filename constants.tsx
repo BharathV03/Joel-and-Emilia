@@ -3,10 +3,10 @@ import { Video, Globe, Users, Play, Camera, Mic, Backpack, VideoIcon } from 'luc
 import { StatItem, GearItem, Partner, Profile } from './types';
 
 export const VISITED_COUNTRIES = [
-  "Thailand", "Philippines", "Australia", "Singapore", "Malaysia", "Indonesia", "Turkey", 
-  "Cambodia", "Vietnam", "Japan", "Maldives", "Sri Lanka", "Iceland", "Panama", "Ecuador", 
-  "China", "South Korea", "Yemen", "UAE", "United Arab Emirates", "India", "Jordan", "UK", "United Kingdom", "Finland", "Vanuatu", 
-  "Czechia", "Italy", "Bolivia", "Chile", "Colombia", "Kosovo", "Albania", "Switzerland", 
+  "Thailand", "Philippines", "Australia", "Singapore", "Malaysia", "Indonesia", "Turkey",
+  "Cambodia", "Vietnam", "Japan", "Maldives", "Sri Lanka", "Iceland", "Panama", "Ecuador",
+  "China", "South Korea", "Yemen", "UAE", "United Arab Emirates", "India", "Jordan", "UK", "United Kingdom", "Finland", "Vanuatu",
+  "Czechia", "Italy", "Bolivia", "Chile", "Colombia", "Kosovo", "Albania", "Switzerland",
   "Fiji", "France", "Austria", "Hungary", "Hong Kong", "Taiwan", "Bahrain", "Portugal", "Laos"
 ];
 
@@ -14,7 +14,7 @@ export const STATS: StatItem[] = [
   { label: "Videos Made", value: 321, icon: <Video className="w-6 h-6" /> },
   { label: "Countries Visited", value: 42, icon: <Globe className="w-6 h-6" /> },
   { label: "Subscribers", value: 341000, suffix: "+", icon: <Users className="w-6 h-6" /> },
-  { label: "Total Views", value: 38.5, suffix: " Million+", icon: <Play className="w-6 h-6" /> },
+  { label: "Total Views", value: 38.5, suffix: "M+", icon: <Play className="w-6 h-6" /> },
 ];
 
 export const GEAR: GearItem[] = [
