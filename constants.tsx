@@ -89,7 +89,7 @@ export const PROFILES: Profile[] = [
 
 export const PARTNERS: Partner[] = [
   { name: "Nomad eSIM", logo: "https://getnomad.app/favicon.ico", url: "https://getnomad.app" },
-  { name: "Safety Wing", logo: "https://safetywing.com/favicon.ico", url: "https://safetywing.com" },
-  { name: "Proton VPN", logo: "https://protonvpn.com/favicon.ico", url: "https://protonvpn.com" },
-  { name: "Klook", logo: "https://klook.com/favicon.ico", url: "https://klook.com" },
+  { name: "Safety Wing", logo: "https://safetywing.com/favicon.ico", url: "https://bit.ly/4qZv7vx" },
+  { name: "Proton VPN", logo: "https://protonvpn.com/favicon.ico", url: "https://protonvpn.com/joelfriend" },
+  { name: "Klook", logo: "https://klook.com/favicon.ico", url: "http://bit.ly/49ttzE7" },
 ];
