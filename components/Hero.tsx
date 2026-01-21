@@ -7,12 +7,12 @@ const Hero: React.FC = () => {
       {/* Ken Burns Effect Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://i.ibb.co/Fk0bmfvF/Screenshot-2026-01-09-at-11-31-16.png"
+          src="/images/hero.webp"
           alt="Joel and Emilia Travel"
           className="w-full h-full object-cover scale-110 animate-[kenburns_20s_ease_infinite_alternate]"
           onError={(e) => {
-             // Fallback if the direct ibb link fails
-             e.currentTarget.src = "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=2021&auto=format&fit=crop";
+            // Fallback if the local image fails (though it shouldn't if present)
+            e.currentTarget.style.display = 'none';
           }}
         />
         <div className="absolute inset-0 bg-black/40"></div>
